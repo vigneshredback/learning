@@ -7,9 +7,9 @@ function Index() {
   return (
     <>
       <Navbar/>
-      <HeroSection/>
+      {/* <HeroSection/>
       <About/>
-      <Skills/>
+      <Skills/> */}
     </>
   )
 }

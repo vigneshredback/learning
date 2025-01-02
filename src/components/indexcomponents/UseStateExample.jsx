@@ -7,6 +7,7 @@ function UseStateExample() {
     isMarried: false,
     hobbies: ["coding", "sleeping"],
   });
+  use
 
   function x() {
     setInfo((prev) => ({ ...prev, isMarried: true, age: info.age + 2 }));
@@ -23,6 +24,7 @@ function UseStateExample() {
         are u marry
         {info.isMarried ? "married" : "  not married"}
       </h1>
+      <h1>{info.hobbies.m}</h1>
 
       <button onClick={x} className="bg-red-500">
         click

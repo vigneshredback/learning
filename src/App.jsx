@@ -7,8 +7,8 @@ function App() {
 
   return (
     <>
-      {/* <Index /> */}
-      <UseStateExample/>
+      <Index />
+      {/* <UseStateExample/> */}
     </>
   )
 }
